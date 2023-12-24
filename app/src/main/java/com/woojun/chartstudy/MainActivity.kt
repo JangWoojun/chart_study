@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
             // 스크롤 가능하게 설정
             lineChart.setVisibleXRangeMaximum(10f) // 한 번에 보여질 최대 데이터 포인트 수
+            lineChart.setVisibleXRangeMinimum(5f)
             lineChart.moveViewToX(0f) // 초기 스크롤 위치 설정
 
             // 차트 갱신
